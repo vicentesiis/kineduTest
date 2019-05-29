@@ -7,13 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		225E2742229A0EEB000E8226 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225E2741229A0EEB000E8226 /* Colors.xcassets */; };
+		2269B083229CB574004599D1 /* GothamRounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2269B080229CB572004599D1 /* GothamRounded-Bold.otf */; };
+		2269B084229CB574004599D1 /* GothamRounded-Book.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2269B081229CB573004599D1 /* GothamRounded-Book.otf */; };
+		2269B085229CB574004599D1 /* GothamRounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 2269B082229CB574004599D1 /* GothamRounded-Medium.otf */; };
+		228BDA18229E4EB200E3935D /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228BDA17229E4EB200E3935D /* Manager.swift */; };
+		228BDA1B229E548200E3935D /* NPSProcessed.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228BDA1A229E548200E3935D /* NPSProcessed.swift */; };
+		228BDA1E229F187B00E3935D /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 228BDA1D229F187B00E3935D /* Utils.swift */; };
+		22A3AF22229CCA870067E57F /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3AF21229CCA870067E57F /* DetailViewController.swift */; };
+		22A3AF24229CCBE70067E57F /* BabyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A3AF23229CCBE70067E57F /* BabyCollectionViewCell.swift */; };
+		22C410722298DFF80060B3D9 /* NPS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C410712298DFF80060B3D9 /* NPS.swift */; };
 		22CB51F12298D6980093FAA5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB51F02298D6980093FAA5 /* AppDelegate.swift */; };
-		22CB51F32298D6980093FAA5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB51F22298D6980093FAA5 /* ViewController.swift */; };
+		22CB51F32298D6980093FAA5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB51F22298D6980093FAA5 /* MainViewController.swift */; };
 		22CB51F62298D6980093FAA5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CB51F42298D6980093FAA5 /* Main.storyboard */; };
 		22CB51F82298D6990093FAA5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22CB51F72298D6990093FAA5 /* Assets.xcassets */; };
 		22CB51FB2298D6990093FAA5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22CB51F92298D6990093FAA5 /* LaunchScreen.storyboard */; };
 		22CB52062298D69A0093FAA5 /* KineduTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB52052298D69A0093FAA5 /* KineduTestTests.swift */; };
 		22CB52112298D69A0093FAA5 /* KineduTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB52102298D69A0093FAA5 /* KineduTestUITests.swift */; };
+		22CB52212298D6E50093FAA5 /* RestApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CB52202298D6E50093FAA5 /* RestApi.swift */; };
+		514AC61BB96D84F95E9B57F0 /* Pods_KineduTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70160718A71A62D261D09528 /* Pods_KineduTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +46,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		225E2741229A0EEB000E8226 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2269B080229CB572004599D1 /* GothamRounded-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Bold.otf"; sourceTree = "<group>"; };
+		2269B081229CB573004599D1 /* GothamRounded-Book.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Book.otf"; sourceTree = "<group>"; };
+		2269B082229CB574004599D1 /* GothamRounded-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GothamRounded-Medium.otf"; sourceTree = "<group>"; };
+		228BDA17229E4EB200E3935D /* Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager.swift; sourceTree = "<group>"; };
+		228BDA1A229E548200E3935D /* NPSProcessed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NPSProcessed.swift; sourceTree = "<group>"; };
+		228BDA1D229F187B00E3935D /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		22A3AF21229CCA870067E57F /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		22A3AF23229CCBE70067E57F /* BabyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyCollectionViewCell.swift; sourceTree = "<group>"; };
+		22C410712298DFF80060B3D9 /* NPS.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NPS.swift; sourceTree = "<group>"; };
 		22CB51ED2298D6980093FAA5 /* KineduTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KineduTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CB51F02298D6980093FAA5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		22CB51F22298D6980093FAA5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22CB51F22298D6980093FAA5 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		22CB51F52298D6980093FAA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		22CB51F72298D6990093FAA5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		22CB51FA2298D6990093FAA5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +69,10 @@
 		22CB520C2298D69A0093FAA5 /* KineduTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KineduTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		22CB52102298D69A0093FAA5 /* KineduTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KineduTestUITests.swift; sourceTree = "<group>"; };
 		22CB52122298D69A0093FAA5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22CB52202298D6E50093FAA5 /* RestApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestApi.swift; sourceTree = "<group>"; };
+		70160718A71A62D261D09528 /* Pods_KineduTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KineduTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D34A593BFEEB1148A3BD14D2 /* Pods-KineduTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KineduTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-KineduTest/Pods-KineduTest.release.xcconfig"; sourceTree = "<group>"; };
+		DFA3EC62CFD325C9918775D1 /* Pods-KineduTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KineduTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-KineduTest/Pods-KineduTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				514AC61BB96D84F95E9B57F0 /* Pods_KineduTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +101,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2269B07F229CB526004599D1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2269B080229CB572004599D1 /* GothamRounded-Bold.otf */,
+				2269B081229CB573004599D1 /* GothamRounded-Book.otf */,
+				2269B082229CB574004599D1 /* GothamRounded-Medium.otf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		228BDA16229E4EA600E3935D /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				228BDA17229E4EB200E3935D /* Manager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		228BDA19229E547800E3935D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				228BDA1A229E548200E3935D /* NPSProcessed.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		228BDA1C229F187100E3935D /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				228BDA1D229F187B00E3935D /* Utils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		22A3AF20229CC4000067E57F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				22CB51F72298D6990093FAA5 /* Assets.xcassets */,
+				225E2741229A0EEB000E8226 /* Colors.xcassets */,
+				2269B07F229CB526004599D1 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		22CB51E42298D6980093FAA5 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +152,8 @@
 				22CB52042298D69A0093FAA5 /* KineduTestTests */,
 				22CB520F2298D69A0093FAA5 /* KineduTestUITests */,
 				22CB51EE2298D6980093FAA5 /* Products */,
+				7487BB07290506F6F59EEED7 /* Pods */,
+				EC7661799E99112A53593BAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +170,14 @@
 		22CB51EF2298D6980093FAA5 /* KineduTest */ = {
 			isa = PBXGroup;
 			children = (
-				22CB51F02298D6980093FAA5 /* AppDelegate.swift */,
-				22CB51F22298D6980093FAA5 /* ViewController.swift */,
-				22CB51F42298D6980093FAA5 /* Main.storyboard */,
-				22CB51F72298D6990093FAA5 /* Assets.xcassets */,
+				22CB521E2298D6C60093FAA5 /* RestApi */,
+				22CB521F2298D6D10093FAA5 /* Screens */,
+				228BDA16229E4EA600E3935D /* Manager */,
+				228BDA19229E547800E3935D /* Model */,
+				228BDA1C229F187100E3935D /* Utils */,
+				22A3AF20229CC4000067E57F /* Resources */,
 				22CB51F92298D6990093FAA5 /* LaunchScreen.storyboard */,
+				22CB51F02298D6980093FAA5 /* AppDelegate.swift */,
 				22CB51FC2298D6990093FAA5 /* Info.plist */,
 			);
 			path = KineduTest;
@@ -125,6 +201,51 @@
 			path = KineduTestUITests;
 			sourceTree = "<group>";
 		};
+		22CB521E2298D6C60093FAA5 /* RestApi */ = {
+			isa = PBXGroup;
+			children = (
+				22CB52222298D92F0093FAA5 /* NPS */,
+				22CB52202298D6E50093FAA5 /* RestApi.swift */,
+			);
+			path = RestApi;
+			sourceTree = "<group>";
+		};
+		22CB521F2298D6D10093FAA5 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				22CB51F22298D6980093FAA5 /* MainViewController.swift */,
+				22A3AF21229CCA870067E57F /* DetailViewController.swift */,
+				22A3AF23229CCBE70067E57F /* BabyCollectionViewCell.swift */,
+				22CB51F42298D6980093FAA5 /* Main.storyboard */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		22CB52222298D92F0093FAA5 /* NPS */ = {
+			isa = PBXGroup;
+			children = (
+				22C410712298DFF80060B3D9 /* NPS.swift */,
+			);
+			path = NPS;
+			sourceTree = "<group>";
+		};
+		7487BB07290506F6F59EEED7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DFA3EC62CFD325C9918775D1 /* Pods-KineduTest.debug.xcconfig */,
+				D34A593BFEEB1148A3BD14D2 /* Pods-KineduTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC7661799E99112A53593BAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				70160718A71A62D261D09528 /* Pods_KineduTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 22CB52152298D69A0093FAA5 /* Build configuration list for PBXNativeTarget "KineduTest" */;
 			buildPhases = (
+				FBBC73BFE976BE7A534E3A05 /* [CP] Check Pods Manifest.lock */,
 				22CB51E92298D6980093FAA5 /* Sources */,
 				22CB51EA2298D6980093FAA5 /* Frameworks */,
 				22CB51EB2298D6980093FAA5 /* Resources */,
+				4534AE3B37E541E8BEA8CC4D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,8 +352,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2269B084229CB574004599D1 /* GothamRounded-Book.otf in Resources */,
 				22CB51FB2298D6990093FAA5 /* LaunchScreen.storyboard in Resources */,
+				225E2742229A0EEB000E8226 /* Colors.xcassets in Resources */,
 				22CB51F82298D6990093FAA5 /* Assets.xcassets in Resources */,
+				2269B085229CB574004599D1 /* GothamRounded-Medium.otf in Resources */,
+				2269B083229CB574004599D1 /* GothamRounded-Bold.otf in Resources */,
 				22CB51F62298D6980093FAA5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +378,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4534AE3B37E541E8BEA8CC4D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-KineduTest/Pods-KineduTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/UPCarouselFlowLayout/UPCarouselFlowLayout.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UPCarouselFlowLayout.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-KineduTest/Pods-KineduTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBBC73BFE976BE7A534E3A05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KineduTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		22CB51E92298D6980093FAA5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				22CB51F32298D6980093FAA5 /* ViewController.swift in Sources */,
+				22CB51F32298D6980093FAA5 /* MainViewController.swift in Sources */,
+				22C410722298DFF80060B3D9 /* NPS.swift in Sources */,
+				228BDA1E229F187B00E3935D /* Utils.swift in Sources */,
+				22A3AF22229CCA870067E57F /* DetailViewController.swift in Sources */,
 				22CB51F12298D6980093FAA5 /* AppDelegate.swift in Sources */,
+				228BDA18229E4EB200E3935D /* Manager.swift in Sources */,
+				228BDA1B229E548200E3935D /* NPSProcessed.swift in Sources */,
+				22A3AF24229CCBE70067E57F /* BabyCollectionViewCell.swift in Sources */,
+				22CB52212298D6E50093FAA5 /* RestApi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,9 +617,11 @@
 		};
 		22CB52162298D69A0093FAA5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFA3EC62CFD325C9918775D1 /* Pods-KineduTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P47JR3FHB;
 				INFOPLIST_FILE = KineduTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -447,9 +636,11 @@
 		};
 		22CB52172298D69A0093FAA5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D34A593BFEEB1148A3BD14D2 /* Pods-KineduTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8P47JR3FHB;
 				INFOPLIST_FILE = KineduTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

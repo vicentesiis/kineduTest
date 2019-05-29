@@ -7,7 +7,25 @@
 		<key>KineduTest.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>22CB51EC2298D6980093FAA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>22CB52002298D69A0093FAA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>22CB520B2298D69A0093FAA5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
